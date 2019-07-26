@@ -1477,9 +1477,9 @@ Version: 1.0
     .site-header .btn--with-photo {
       margin-right: 0;
     }
-    
+    /* ///play around with the padding height top/// */
     .site-footer {
-      padding: 2rem 0 3.5rem 0;
+      padding: 0 0 3.5rem 0;
       background-image: linear-gradient(#FFF, #ECECEC);
     }
     
@@ -1503,7 +1503,7 @@ Version: 1.0
     }
     
     .site-footer__inner {
-      border-top: 1px dotted #DEDEDE;
+      border-top: 2px solid #DEDEDE;
       padding-top: 3.5rem;
     }
     
@@ -1623,7 +1623,7 @@ Version: 1.0
     
     .main-navigation .current-menu-item a,
     .main-navigation a:hover {
-      color: #FAF0CA;
+      color: rgb(6, 135, 139);
     }
     
     .page-banner {
@@ -2366,3 +2366,8 @@ Version: 1.0
       border-bottom: none;
       margin-bottom: 0;
     }
+
+    .blog-excerpt-bottom-border {
+      border-bottom: 1px dotted #DEDEDE;
+      padding-bottom: 1.5rem;
+    } 
