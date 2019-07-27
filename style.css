@@ -2366,8 +2366,15 @@ Version: 1.0
       border-bottom: none;
       margin-bottom: 0;
     }
+/* my custom styles */
 
     .blog-excerpt-bottom-border {
       border-bottom: 1px dotted #DEDEDE;
       padding-bottom: 1.5rem;
     } 
+
+    .margin-top-paginate, .blog-heading-margin-top {
+      padding-top: 1.5rem;
+    }
+
+    
