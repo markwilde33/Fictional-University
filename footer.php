@@ -16,9 +16,9 @@
             <nav class="nav-list">
               <ul>
                 <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
-                <li><a href="#">Programs</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Campuses</a></li>
+                <li><a href="<?php echo site_url('/'); ?>">Programs</a></li>
+                <li><a href="<?php echo site_url('/'); ?>">Events</a></li>
+                <li><a href="<?php echo site_url('/'); ?>">Campuses</a></li>
               </ul>
             </nav>
           </div>
@@ -27,9 +27,9 @@
             <h3 class="headline headline--small">Learn</h3>
             <nav class="nav-list">
               <ul>
-                <li><a href="#">Legal</a></li>
+                <li><a href="<?php echo site_url('/'); ?>">Legal</a></li>
                 <li><a href="<?php echo site_url('/privacy-policy') ?>">Privacy</a></li>
-                <li><a href="#">Careers</a></li>
+                <li><a href="<?php echo site_url('/'); ?>">Careers</a></li>
               </ul>
             </nav>
           </div>
