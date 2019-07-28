@@ -13,7 +13,6 @@ get_header(); ?>
 </div>
 
 <div class="container container--narrow page-section">
-Bonjour imbécile je t'aime
 <?php
 while(have_posts()) {
   the_post();?>
