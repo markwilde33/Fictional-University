@@ -15,6 +15,7 @@ function university_features() {
 
 add_action('after_setup_theme', 'university_features');
 
+
 function new_excerpt_more( $more ) {
    return '';
 }
